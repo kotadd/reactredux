@@ -7,7 +7,7 @@ module.exports = {
   // Tell webpack where to put the output file that is generated
   output: {
     filename: 'bundle.js',
-    path: path.resolve(__dirname, 'build')
+    path: path.resolve(__dirname, 'public')
   },
 
   // Tell webpack to run babel on every file it run through
